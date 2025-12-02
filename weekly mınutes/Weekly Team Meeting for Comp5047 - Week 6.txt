@@ -1,0 +1,28 @@
+Weekly Team Meeting for Comp5047 Cyber Security Coursework
+ 
+Date: 28/10/2025
+Time: 12:10-12:40
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19343388, Benjy Hollister (p2)
+
+Absentees:
+1.	19324937, Ivan Kovalchuk (p3)
+2.	19334108, Salih Mirza Dogan (p4)	
+
+Agenda Items:
+1.	Discuss current progress on the work
+		(Quality requirements and UML diagrams)
+2.	Discuss the Architecture System lecture. Currently think about how
+	the system would link together as no enough info to make the diagrams
+	provided yet.
+ 
+Next Meeting:
+1.	Review next lecture on how to create 'Archi-UML' and create them.
+2.	Review current work progress again.
+ 
+Notes/Comments:
+1. 	Meeting concluded early due to fire alarm. All students must
+	leave the room.

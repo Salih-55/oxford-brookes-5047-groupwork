@@ -1,0 +1,26 @@
+Weekly Team Meeting for Comp5047 Cyber Security Coursework
+ 
+Date: 25/11/2025
+Time: 12:30-13:15
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19343388, Benjy Hollister (p2)
+3.	19324937, Ivan Kovalchuk (p3)
+
+Absentees:
+1.	19334108, Salih Mirza Dogan (p4)	
+
+Agenda Items:
+1.	Discuss what work will be needed for final submission
+2.	Reviews over Component diagram theory
+3.	Reviews over Component diagram documentation
+4.	Plan to have a follow up meeting for architecture design to be put together
+
+ 
+Next Meeting:
+1.	Review Component diagrams for final architecture review and put together
+ 
+Notes/Comments:
+1. 	Awareness of final submission arriving. Plan to have a follow up meeting later in the week. Currently planned: Remote, Either 26/11/25 (not after 1pm) or 28/11/25 (before 2:30)

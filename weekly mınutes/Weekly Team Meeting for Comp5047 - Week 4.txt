@@ -1,0 +1,26 @@
+Weekly Team Meeting for Comp5047 Cyber Security Coursework
+ 
+Date: 14/10/2025
+Time: 12:10-1:00
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19343388, Benjy Hollister (p2)
+3.	19324937, Ivan Kovalchuk (p3)
+Absentees:
+1.	19334108, Salih Mirza Dogan (p4)	
+
+Agenda Items:
+1.	Discuss current location in coursework
+2.	Defined plan for next week
+		- Finalise quality requirements
+		- Finalise Use Case model
+		- Finalise Activity model	
+3.	Take a look at activity model work
+ 
+Next Meeting:
+1.	Review each piece of work outlined in todays agenda.
+2.	Discuss the next segment - Architectural design
+ 
+Notes/Comments:

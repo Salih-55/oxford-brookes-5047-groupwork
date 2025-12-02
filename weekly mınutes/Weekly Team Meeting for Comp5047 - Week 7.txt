@@ -1,0 +1,31 @@
+Weekly Team Meeting for Comp5047 Cyber Security Coursework
+ 
+Date: 04/11/2025
+Time: 12:10-13:00
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19343388, Benjy Hollister (p2)
+3.	19324937, Ivan Kovalchuk (p3)
+
+Absentees:
+1.	19334108, Salih Mirza Dogan (p4)	
+
+Agenda Items:
+1.	p1 noticed that work allocation has been incorrect. Will redo for the correct allocation (worked on part 4 not part 2).
+2.	Discussed work for next week. Architectural design of subsystem. Focusing on the microservices of the subsystem and the ones it requests from the other subsystems.
+3.	Think about how the Subsystems come together. Attempt to design the architectural design of the whole system once we have our microservice diagrams completed
+
+ 
+Next Meeting:
+1.	Review architectural diagrams created individually.
+2.	Look to define the architectural design of the whole system.
+3.	GitHub Tidy-up
+ 
+Notes/Comments:
+1. Attempted to contact p4, no response
+
+"a.	You should specify the architectural designs in the UML component diagrams with a set of component nodes that represent microservices and a set of interfaces to represent the APIs that are the connectors between them. 
+b.	The components and connectors in architectural designs, including their methods and parameters, should be specified in a textual documentation to define their functionalities and meanings. 
+c.	In this part of the design, you are not required to give the internal structure of the components, which will be the work of the task on detailed design."

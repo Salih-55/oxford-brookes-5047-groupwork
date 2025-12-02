@@ -1,0 +1,21 @@
+Weekly Team Meeting for Comp4035 Cyber Security Coursework
+ 
+Date: 23/092025
+Time: 12:45-1:00
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19334108, Salih Mirza Dogan (p4)
+Absentees:
+1.	19343388, Benjy Hollister (p2)
+2.	19324937, Ivan Kovalchuk (p3)
+
+Agenda Items:
+1.	Discussed Quality requirements work - Faculty
+2.	Looked at creating UML diagrams on Papyrus
+ 
+Next Meeting:
+1.	Discuss UML Diagrams from post-class exercises
+ 
+Notes/Comments:

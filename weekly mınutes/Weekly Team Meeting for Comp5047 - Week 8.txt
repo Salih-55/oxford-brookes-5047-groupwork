@@ -1,0 +1,29 @@
+
+Weekly Team Meeting for Comp5047 Cyber Security Coursework
+ 
+Date: 11/11/2025
+Time: 12:12-13:00
+Location: AB 1.15
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19324937, Ivan Kovalchuk (p3)
+
+Absentees:
+1.	19343388, Benjy Hollister (p2)
+2.	19334108, Salih Mirza Dogan (p4)	
+
+Agenda Items:
+1.	Discussed the tidy up of the GitHub repository
+2.	Looked at overall submission of coursework, Only a few UMLs left until complete (and team reports)
+3.	Discussed architecture review. Will aim to have all members present to put together the architecture UML
+4.	Deadline for architecture design is next week (18/11/2025)
+
+ 
+Next Meeting:
+1.	Come together with UMLs (usecase, action and architecture)
+2.	Take a look at the class diagrams and UML sequence of the same component
+3.	(FULL PRACTICAL) Implement the architecture diagram together. Connect the system together
+ 
+Notes/Comments:
+N/A

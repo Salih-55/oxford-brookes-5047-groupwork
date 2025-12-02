@@ -1,0 +1,24 @@
+Weekly Team Meeting for Comp4035 Cyber Security Coursework
+ 
+Date: 22/10/2025
+Time: 11:10-12:10
+Location: JHB Main Hall
+ 
+Attendees:
+1.	19339653, Max Delnevo (p1)
+2.	19343388, Benjy Hollister (p2)
+3.	19324937, Ivan Kovalchuk (p3)
+Absentees:
+1.	19334108, Salih Mirza Dogan (p4)
+
+Agenda Items:
+1.	Discussed Quality requirements
+2.	Discussed UML diagrams
+3.	Discussed Activity diagrams
+4.	Uploaded to GitHub individual branches
+ 
+Next Meeting:
+1.	Make sure everyone is up to date on the work.
+2.	prereading on architectural design.
+ 
+Notes/Comments:
