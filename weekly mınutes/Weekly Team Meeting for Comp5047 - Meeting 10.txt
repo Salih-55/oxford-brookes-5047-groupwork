@@ -1,0 +1,25 @@
+Weekly Team Meeting for Comp5047
+ 
+Date: 02/12/2025
+Time: 12:15 - 17:35
+Location: Abercrombie main area
+ 
+Attendees:
+1.	19339653, Max Delnevo
+2.	19343388, Benjy Hollister
+3.	19324937, Ivan Kovalchuk
+4.	19334108, Salih Mirza Dogan
+
+
+Agenda Items:
+1.	-Group members collected component diagrams together to make Architecture review.
+	-Last diagram required by Ivan, Files for the diagram and PNG are uploaded to the GitHub shared repo.
+2.	Discussed component diagrams.
+3.	Discussed team report.
+4.	Set deadline for all PDFs to be completed and on the GitHub group repo by this Thursday (4/12/2025) 
+5.	Team report with architecture review to be completed by the same deadline.
+6.	Set deadline for file structures to be completed on team report.
+ 
+ 
+Notes/Comments:
+Group leader to collect completed PDFs on Thursday (4/12/2025)and check before final submission. Check to complete at 11:00, submission after members have checked 12:30.
