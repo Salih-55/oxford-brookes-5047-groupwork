@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_g0Yz8M8eEfCK_a2H5eX6MA" name="ClassDiagram">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_g6pM8M8eEfCK_a2H5eX6MA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0cYRwM8fEfCyfs4xdZE_AA" name="EventController" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hXNiQM8gEfCyfs4xdZE_AA" name="service" visibility="private" type="_0ttSUM8fEfCyfs4xdZE_AA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FxZAUM8hEfCyfs4xdZE_AA" name="1)&#x9;createEvent(eventData : String) : Event" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OQCAkM8hEfCyfs4xdZE_AA" name="2)&#x9;updateEvent(eventId : String, updateData : String) : Event" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_XETSkM8hEfCyfs4xdZE_AA" name="3)&#x9;uploadMedia(eventId : String, file : File) : String" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0ttSUM8fEfCyfs4xdZE_AA" name="EventService">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fEuFwM8hEfCyfs4xdZE_AA" name="1)&#x9;repository: EventRepository " visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hqGMkM8hEfCyfs4xdZE_AA" name="2)&#x9;mediaClient : MediaStorageClient " visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_k8TkMM8hEfCyfs4xdZE_AA" name="3)&#x9;notificationClient : NotificationClient " visibility="private"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nogrwM8hEfCyfs4xdZE_AA" name="1)&#x9;createEvent(eventData : String) : Event" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pbVUQM8hEfCyfs4xdZE_AA" name="2)&#x9;updateEvent(eventId : String, updateData : String) : Event"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_r2-QQM8hEfCyfs4xdZE_AA" name="3)&#x9;deleteEvent(eventId : String) : void"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_tywAcM8hEfCyfs4xdZE_AA" name="4)&#x9;uploadMedia(eventId : String, file : File) : String"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vblmgM8hEfCyfs4xdZE_AA" name="5)&#x9;notifySubscribers(event : Event) : void"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_05GqAM8fEfCyfs4xdZE_AA" name="EventRepository">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DhBDsM8iEfCyfs4xdZE_AA" name="1)&#x9;events : List&lt;Event> " visibility="private">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_JDhC8M8iEfCyfs4xdZE_AA">
+          <body>1)	events : List&lt;Event> </body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_esNiUM8lEfCyfs4xdZE_AA" name="event" type="_1ciHMM8fEfCyfs4xdZE_AA" association="_esFmgM8lEfCyfs4xdZE_AA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_esNiUc8lEfCyfs4xdZE_AA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_esNiUs8lEfCyfs4xdZE_AA" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TCcxQM8iEfCyfs4xdZE_AA" name="1)&#x9;save(event : Event) : void" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_WiVYgM8iEfCyfs4xdZE_AA" name="2)&#x9;update(event : Event) : void" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZCPwgM8iEfCyfs4xdZE_AA" name="3)&#x9;findById(eventId : String) : Event" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bmbkgM8iEfCyfs4xdZE_AA" name="4)&#x9;delete(eventId : String) : void" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1CczQM8fEfCyfs4xdZE_AA" name="MediaStorageClient">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_juMV0M8iEfCyfs4xdZE_AA" name="storageUrl: String " visibility="private"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_oYm2gM8iEfCyfs4xdZE_AA" name="upload(file : File) : String" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qykXgM8iEfCyfs4xdZE_AA" name="delete(fileUrl : String) : void" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1OMwQM8fEfCyfs4xdZE_AA" name="NotificationClient">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6xMXYM8iEfCyfs4xdZE_AA" name="endpoint : String " visibility="private"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9ETCcM8iEfCyfs4xdZE_AA" name="send(eventId : String, message : String) : void" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1ciHMM8fEfCyfs4xdZE_AA" name="Event">
+      <ownedAttribute xmi:type="uml:ExtensionEnd" xmi:id="_MUq1MM8jEfCyfs4xdZE_AA" name="1.&#x9;eventId : String" visibility="private" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PYImMM8jEfCyfs4xdZE_AA" name="2.&#x9;name : String" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_R81XkM8jEfCyfs4xdZE_AA" name="3.&#x9;theme : String" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_T9njkM8jEfCyfs4xdZE_AA" name="4.&#x9;description : String" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WSX0cM8jEfCyfs4xdZE_AA" name="5.&#x9;date : DateTime" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YepewM8jEfCyfs4xdZE_AA" name="6.&#x9;venue : String" visibility="private"/>
+      <ownedAttribute xmi:type="uml:ExtensionEnd" xmi:id="_bD0KMM8jEfCyfs4xdZE_AA" name="7.&#x9;mediaUrls : List&lt;String>" visibility="private" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dQutsM8jEfCyfs4xdZE_AA" name="8.&#x9;createdBy : String" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gG1_MM8jEfCyfs4xdZE_AA" name="9.&#x9;requiresRegistration : boolean" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_imWukM8jEfCyfs4xdZE_AA" name="10.&#x9;requiresTicket : boolean" visibility="private"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lKLWMM8jEfCyfs4xdZE_AA" name="1)&#x9;updateDetails(updateData : String) : void" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_m49MMM8jEfCyfs4xdZE_AA" name="2)&#x9;addMedia(url : String) : void" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pEZwEM8jEfCyfs4xdZE_AA" name="3)&#x9;removeMedia(url : String) : void" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_sGfLkM8kEfCyfs4xdZE_AA" client="_0cYRwM8fEfCyfs4xdZE_AA" supplier="_0ttSUM8fEfCyfs4xdZE_AA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_tOKlUM8kEfCyfs4xdZE_AA" client="_0ttSUM8fEfCyfs4xdZE_AA" supplier="_1CczQM8fEfCyfs4xdZE_AA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_twf2UM8kEfCyfs4xdZE_AA" client="_0ttSUM8fEfCyfs4xdZE_AA" supplier="_1OMwQM8fEfCyfs4xdZE_AA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ubrhUM8kEfCyfs4xdZE_AA" client="_1CczQM8fEfCyfs4xdZE_AA" supplier="_05GqAM8fEfCyfs4xdZE_AA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_esFmgM8lEfCyfs4xdZE_AA" memberEnd="_esNiUM8lEfCyfs4xdZE_AA _esNiU88lEfCyfs4xdZE_AA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_esMUMM8lEfCyfs4xdZE_AA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_esM7QM8lEfCyfs4xdZE_AA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_esNiU88lEfCyfs4xdZE_AA" name="eventrepository" type="_05GqAM8fEfCyfs4xdZE_AA" association="_esFmgM8lEfCyfs4xdZE_AA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_vAts8M9kEfC0A7cU9AGOSw" name="Society Leader App UI" visibility="public">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_JoVkcM9oEfC0A7cU9AGOSw" client="_vAts8M9kEfC0A7cU9AGOSw" supplier="_xr45wM9kEfC0A7cU9AGOSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_vXz-UM9kEfC0A7cU9AGOSw" name="Society Commucation Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_vlq0IM9kEfC0A7cU9AGOSw" name="Society Management Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_v2SqEM9kEfC0A7cU9AGOSw" name="Society Event Management Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_wDEh0M9kEfC0A7cU9AGOSw" name="Notification Service"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_wUZiYM9kEfC0A7cU9AGOSw" name="Media Storage Service"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_yMHR8M9kEfC0A7cU9AGOSw" name="ICommunication"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xSVKQM9kEfC0A7cU9AGOSw" name="ISocietyManagement"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xe60wM9kEfC0A7cU9AGOSw" name="IEventManagement"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_xr45wM9kEfC0A7cU9AGOSw" name="INotification"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_x9F-gM9kEfC0A7cU9AGOSw" name="IMediaStorage"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Kr7IYM9oEfC0A7cU9AGOSw" client="_NNNZYM9oEfC0A7cU9AGOSw" supplier="_xe60wM9kEfC0A7cU9AGOSw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Lh5HEM9oEfC0A7cU9AGOSw" client="_JoVkcM9oEfC0A7cU9AGOSw" supplier="_Kr7IYM9oEfC0A7cU9AGOSw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_MKnT8M9oEfC0A7cU9AGOSw" client="_JoVkcM9oEfC0A7cU9AGOSw" supplier="_yMHR8M9kEfC0A7cU9AGOSw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NNNZYM9oEfC0A7cU9AGOSw" client="_JoVkcM9oEfC0A7cU9AGOSw" supplier="_x9F-gM9kEfC0A7cU9AGOSw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NzjAoM9oEfC0A7cU9AGOSw" client="_NNNZYM9oEfC0A7cU9AGOSw" supplier="_xSVKQM9kEfC0A7cU9AGOSw"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JEUUMM8iEfCyfs4xdZE_AA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JErgkM8iEfCyfs4xdZE_AA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_JE0qgM8iEfCyfs4xdZE_AA" base_Comment="_JDhC8M8iEfCyfs4xdZE_AA" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>
